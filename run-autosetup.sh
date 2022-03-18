@@ -179,9 +179,23 @@ brcappend "setxkbmap -layout us -variant ,qwerty"
 #-/
 #/
 
+# Make flatpaks good and working
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#/
+
 # Install some deps
 dnfins wget
 dnfins curl
 #-/
 #/
+
+# Install browsers
+dnfins firefox
+dnfins chromium
+dnfins links
+dnfins torbrowser-launcher
+flatpakins org.gnome.Epiphany
+#-/
+#/
+
 

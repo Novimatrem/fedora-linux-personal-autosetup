@@ -1,0 +1,190 @@
+OLD, LEGACY ~ My software preference v38 (some may change over time) ~
+ 
+Most of these are easily found/gotten from your distro repo, especially if you use Ubuntu or similar, else they are a quick web-search away.
+
+Software I use;
+
+xubuntu (linux distro)
+linux (operating system)
+x11 (display server)
+
+Xfce (desktop)
+
+abiword (Free Libre Open Source word processor)
+adobe flash (or as similar as possible)
+anbox (android emulator)
+apt, snap, flatpak (package managers)
+armagetronad (light bikes game, aka retrocycles)
+assaultCube (multiplayer FPS game)
+atril (PDF viewer, reads many e-book formats too)
+audacity (Audio editor)
+baobab & ncdu (Disk usage analyzers)
+Bitwarden (password manager)
+bleachbit (disk space cleaner, privacy manager, and computer system optimizer)
+blueman (full featured bluetooth manager)
+brackets (html/css editor, but i use it just for writing markdown)
+brasero (free and open-source disc-burning program)
+bucklespring (nostalgia bucklespring keyboard sound)
+caffeine, caffeine-indicator (Inhibits system sleep)
+calibre (e-book reader and e-book manager, reads most formats)
+catfish (Catfish File Search, search for files)
+celluloid (video player)
+cool-retro-term (A good looking terminal emulator, eye-candy, customizable)
+coronabar (Get information about current cases of coronavirus right from the menu bar/notification area)
+crispy-doom, freedoom1 (Best DOOM)
+desmume (nintendo DS emulator)
+dolphin-emulator [flatpak specifically, for newer version] (Nintendo Wii/GameCube emulator) https://flathub.org/apps/details/org.DolphinEmu.dolphin-emu
+discover (app store)
+dosbox (dos emulator)
+draw.io (flowchart maker, etc)
+dropbox (Cloud storage sync)
+eduke32 (duke nukem 3D source port)
+electronplayer
+feedreader (Desktop Client for various RSS Services [combine with Dropbox/other cloud storage for sync])
+filezilla (ftp/sftp program)
+firefox (Web browser)
+freetube (youtube player)
+frets on fire (guitar hero clone)
+gajim (XMPP/Jabber chat client)
+GB Enhanced+ [GBE+] (Gameboy/Gameboy Color/GBA Emulator)
+gdebi (Graphical AND command-line app install helper for Ubuntu)
+gedit (GUI text editor)
+gimp (Image editor)
+git (Code pushing)
+gnome disks / gnome disk utility (Disk operations)
+gnome system monitor, htop (System monitors)
+gnome weather (Weather viewer)
+gnome-software (GUI software centre)
+gnome-terminal (terminal emulator)
+gnumeric (Free Libre Open Source spreadsheet application)
+godot engine [via steam] (game engine, creator, editor)
+gog galaxy wine
+gparted (Partition management)
+guvcview, cheese (Webcam control)
+gzdoom (doom source port)
+handbrake (Video compression)
+hedgewars (worms clone)
+itch app (game store, "The best way to play your itch.io games")
+jitsi meet
+jstest-gtk (Controller testing)
+kdenlive (video editor)
+kolourpaint (Raster graphics editor like MS Paint)
+krita (image editor/art)
+
+languagetool [java] (Grammar and Spell Checker) {yes i have both}
+languagetool [snap version] (Grammar and Spell Checker) {yes i have both}
+
+libreoffice (Free Libre Open Source office suite)
+libstrangle [Björn Spindel aka torkel104's fork] (Frame rate limiter for Linux/OpenGL/Vulkan) https://gitlab.com/torkel104/libstrangle
+localepurge (Removes unnecessary locales [I only want en_US and en_GB])
+master PDF Editor (PDF editor)
+
+Microsoft Security Essentials (MajorGeeks)
+Windows Live Essentials 2012 (MajorGeeks)
+
+Minecraft Bedrock Launcher (FLATPAK SPECIFICALLY) - https://flathub.org/apps/details/io.mrarm.mcpelauncher
+
+Minecraft launcher
+Minetest game
+minigalaxy (Linux GOG client)
+mudlet (mud client)
+mupen64plus (n64 emulator)
+mypaint (painting program)
+nano (CLI text editor)
+nestopia (NES emulator)
+neofetch (system information tool)
+nethack (nethack)
+NoteBot (by adolfintel / fdossena)
+nsnake (snake game cli)
+net-tools, nethogs (monitoring CLI tools)
+kdenlive (Video editors)
+OBS studio (recording/streaming)
+oracle VM VirtualBox (virtual machine software) [install deb from their site, works better]
+openarena
+openshot video editor 
+osu!
+p7zip-desktop
+pacman4console
+pale moon (web browser)
+pavucontrol (Audio control + audio device switching)
+peek (Animated Gif Screen Recorder)
+pencil2d (Pencil2D, 2D hand-drawn animation tool)
+phoronix test suite
+pingus (lemmings clone)
+pinta (paintdotnet clone for linux)
+ppsspp (psp emulator)
+playonlinux (Wine GUI [for software])
+proton (Wine GUI [for games])
+ProtonMail Desktop unofficial application (Electron wrapper for ProtonMail) https://github.com/protonmail-desktop/application
+psensor (System temperature monitoring)
+pylint (python linter)
+python-is-python3 (Fixes Python on Ubuntu 20.04 [when I use that distro])
+qjoypad (Keyboard to controller mapping)
+quadrapassel (gnome tetris clone)
+redshift (f.lux clone for linux)
+simplescreenrecorder (Livestreaming)
+simplescreenrecorder (Video capture)
+sauerbraten (cube engine fps)
+sengi (electron mastodon client)
+skanlite (use scanner devices)
+skype
+snap store (app store)
+gnome-software (app store)
+sonic robo blast 2 flatpak
+sonic robo blast 2 kart flatpak
+spelunky snap
+stacer (Linux System Cleaner, Optimizer, and Monitoring)
+steam (Game store of choice)
+supertux2
+supertuxkart
+gnome-system-monitor
+telegram desktop
+thunar file manager
+tlp (Reduce power usage and reduce heat, with no noticable consequences)
+trello-desktop (An unofficial trello desktop app.)
+tmux (terminal multiplexer)
+tor browser (Web browser)
+transmission (BitTorrent client)
+tux paint (painting program)
+twitch-wrapper
+ubuntu mainline kernel installer
+unity hub
+variety (varietywalls)
+vice (commodore emulator)
+vlc (Video & audio player)
+vscodium (MS Visual Studio Code without MS branding/telemetry/licensing)
+wine-development (Wine version)
+wire, Jitsi Meet (VoIP + instant messaging)
+webcamoid (webcam booth)
+zandronum (doom source port)
+zsnes (snes emulator)
+Kwrite (text editor)
+GZDoom (DOOM source port)
+flatpak install flathub com.thebrokenrail.MCPIReborn https://flathub.org/apps/details/com.thebrokenrail.MCPIReborn
+
+dm-tools (snap)
+sudo snap install dm-tools
+
+[WINE] Microsoft Office 2007 (Proprietary closed source office suite)
+
+~ You may have to put in a bit extra effort to get these few ~
+master pdf editor deb from their site.
+ms office 2007 from its disc (bought from amazon).
+various scripts, tweaks, and other code from my Snippets.
+various scripts, programs, and other codes from my GitLab profile.
+
+== windows specific extras ==
+BYOND
+SRB2K
+XIVLauncher (https://github.com/goatcorp/FFXIVQuickLauncher)
+f.lux (if you aren't doing anything colour sensitive)
+Fraps
+7+ Taskbar Tweaker
+Gajim (windows)
+Blizzard Battle.net Launcher
+Roblox
+Notepad++
+PuTTY
+'Quiet on the Set' (windows sound volume level limiter)
+'Sound Lock' (windows sound volume level limiter)
+Install and make use of Chocolatey https://chocolatey.org
