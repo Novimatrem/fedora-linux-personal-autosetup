@@ -301,6 +301,7 @@ snapins languagetool
 snapins pngcrush --edge
 snapins tetris-thefenriswolf
 snapins telegram-desktop
+snapins dm-tools
 sudo snap refresh
 #-/
 #/
@@ -345,7 +346,7 @@ mkdir /home/$(whoami)/Working/Important
 mkdir /home/$(whoami)/Applications
 mkdir /home/$(whoami)/DnD
 mkdir /home/$(whoami)/Flashes
-mkdir /home/$(whoami)/EMU Roms
+mkdir "/home/$(whoami)/EMU Roms"
 mkdir /home/$(whoami)/.icons
 mkdir /home/$(whoami)/Pictures/Wallpapers
 #-/
@@ -463,3 +464,37 @@ rm -rf /opt/nohup.out
 sudo rm -rf /opt/nohup.out
 #-/
 #/
+
+# Install more software
+dnfins abiword
+dnfins atril
+dnfins audacity
+dnfins baobab
+dnfins ncdu
+dnfins brasero
+dnfins calibre
+dnfins dosbox
+dnfins filezilla
+dnfins gimp
+dnfins git
+dnfins gnome-disks
+dnfins gparted
+dnfins gnome-system-monitor
+dnfins xfce4-terminal
+dnfins gnumeric
+dnfins guvcview
+dnfins cheese
+dnfins languagetool
+dnfins nano
+dnfins neofetch
+dnfins net-tools
+dnfins nethogs
+dnfins pavucontrol
+dnfins playonlinux
+dnfins skanlite
+dnfins tmux
+dnfins torbrowser-launcher
+dnfins vlc
+#-/
+#/
+
