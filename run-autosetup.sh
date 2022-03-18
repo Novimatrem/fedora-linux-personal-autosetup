@@ -57,7 +57,6 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+qwerty')]"
 #-/
 #/
 
-
 # Aliases
 # Don't actually use these aliases anywhere else,
 # They're dumb and for script tidy only
@@ -181,6 +180,45 @@ brcappend "setxkbmap -layout us -variant ,qwerty"
 
 # Make flatpaks good and working
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+#/
+
+# Remove GNOME from Fedora
+echo "Working..."
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+sudo dnf remove -y jdk
+sudo dnf remove -y jre
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+sudo yum groupremove gnome-desktop-environment
+sudo dnf group remove gnome-desktop-environment
+sudo dnf remove -y gnome-desktop3
+sudo dnf remove -y gnome-session
+sudo dnf remove -y gnome-session-wayland-session
+sudo dnf remove -y gnome-session-xsession
+sudo dnf remove -y gnome-shell
+sudo dnf remove -y gnome-classic-session
+sudo dnf remove -y gdm
+sudo systemctl disable gdm
+sudo systemctl remove gdm
+sudo dnf remove -y *gnome*
+sudo dnf remove -y @gnome-desktop
+sudo dnf remove -y gnome-*
+sudo dnf remove -y gnome
+sudo dnf remove -y mutter
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+echo ""
+#-/
+#/
+
+# Install Xfce
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+
+sudo dnf install -y sddm
+sudo systemctl enable sddm
+sudo dnf group install -y xfce
+sudo dnf group install -y "Xfce Desktop"
+
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+#-/
 #/
 
 # Install some deps
