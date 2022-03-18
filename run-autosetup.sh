@@ -179,4 +179,9 @@ brcappend "setxkbmap -layout us -variant ,qwerty"
 #-/
 #/
 
+# Install some deps
+dnfins wget
+dnfins curl
+#-/
+#/
 
