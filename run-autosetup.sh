@@ -497,6 +497,7 @@ dnfins torbrowser-launcher
 dnfins vlc
 dnfins obs-studio
 dnfins simplescreenrecorder
+dnfins peek
 #-/
 #/
 
