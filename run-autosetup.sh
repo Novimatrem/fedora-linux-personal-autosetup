@@ -501,6 +501,7 @@ dnfins peek
 dnfins handbrake
 dnfins kdenlive
 dnfins openshot
+flatpakins io.github.fabiangreffrath.Doom
 #-/
 #/
 
