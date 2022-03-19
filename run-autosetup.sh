@@ -498,6 +498,9 @@ dnfins vlc
 dnfins obs-studio
 dnfins simplescreenrecorder
 dnfins peek
+dnfins handbrake
+dnfins kdenlive
+dnfins openshot
 #-/
 #/
 
