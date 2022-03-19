@@ -501,3 +501,9 @@ dnfins peek
 #-/
 #/
 
+# ensure-obs in home folder
+cd /home/$(whoami)
+dnfins wget
+wget https://gitlab.com/Novimatrem/fedora-linux-personal-autosetup/-/raw/main/ensure-obs.sh
+#-/
+#/
