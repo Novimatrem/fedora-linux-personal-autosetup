@@ -495,6 +495,8 @@ dnfins skanlite
 dnfins tmux
 dnfins torbrowser-launcher
 dnfins vlc
+dnfins obs-studio
+dnfins simplescreenrecorder
 #-/
 #/
 
