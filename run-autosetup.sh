@@ -502,6 +502,8 @@ dnfins handbrake
 dnfins kdenlive
 dnfins openshot
 flatpakins io.github.fabiangreffrath.Doom
+dnfins oxygen-fonts
+dnfins yaru-theme
 #-/
 #/
 
