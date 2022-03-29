@@ -504,6 +504,7 @@ dnfins openshot
 flatpakins io.github.fabiangreffrath.Doom
 dnfins oxygen-fonts
 dnfins yaru-theme
+dnfins lua
 #-/
 #/
 
