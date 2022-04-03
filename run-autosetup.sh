@@ -302,6 +302,7 @@ snapins pngcrush --edge
 snapins tetris-thefenriswolf
 snapins telegram-desktop
 snapins dm-tools
+snapins scrcpy
 sudo snap refresh
 #-/
 #/
