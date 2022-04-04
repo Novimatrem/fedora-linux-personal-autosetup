@@ -529,5 +529,8 @@ timedatectl
 timedatectl set-ntp true
 sudo timedatectl set-ntp true
 timedatectl
+sleep 6s
+sudo hwclock -w
+hwclock -w
 #-/
 #/
