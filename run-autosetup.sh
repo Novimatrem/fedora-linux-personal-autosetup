@@ -521,3 +521,13 @@ timedatectl set-ntp yes
 sudo timedatectl set-ntp yes
 #-/
 #/
+
+# time, part 2
+sudo systemctl enable systemd-timesyncd.service
+sudo systemctl start systemd-timesyncd.service
+timedatectl
+timedatectl set-ntp true
+sudo timedatectl set-ntp true
+timedatectl
+#-/
+#/
