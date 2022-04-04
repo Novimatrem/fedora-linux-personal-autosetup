@@ -515,3 +515,9 @@ dnfins wget
 wget https://gitlab.com/Novimatrem/fedora-linux-personal-autosetup/-/raw/main/ensure-obs.sh
 #-/
 #/
+
+# time, part 1
+timedatectl set-ntp yes
+sudo timedatectl set-ntp yes
+#-/
+#/
