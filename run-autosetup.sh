@@ -534,3 +534,40 @@ sudo hwclock -w
 hwclock -w
 #-/
 #/
+
+# KDE
+
+# With how KDE Plasma (/kwin) has a pretty great compositor, *and* when I can't use the compositor
+# such as for very input-lag dependant games like Spelunky HD, and osu!, I can use Window Rules to
+# disable it automatically for those programs specifically, I think KDE might have shot to the top
+# of the list of desktops I'll be using
+
+# Install KDE Desktop on Fedora
+
+echo "Working..."
+
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+
+
+sudo dnf update -y
+sudo dnf upgrade -y
+sudo dnf upgrade --refresh -y
+
+sudo dnf install -y sddm
+sudo systemctl enable sddm
+
+sudo dnf groupinstall "KDE Plasma Workspaces"
+sudo dnf group install kde-desktop-environment
+sudo dnf install @kde-desktop-environment
+sudo dnf install @kde-desktop
+
+sudo dnf update -y
+sudo dnf upgrade -y
+sudo dnf upgrade --refresh -y
+
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+
+echo "Done."
+echo ""
+#-/
+#/
