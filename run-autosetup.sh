@@ -571,3 +571,10 @@ echo "Done."
 echo ""
 #-/
 #/
+
+# Wayland adjacent
+dnfins eglinfo
+dnfins egl-utils
+dnfins wayland-utils
+#-/
+#/
