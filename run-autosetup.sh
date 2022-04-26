@@ -578,3 +578,12 @@ dnfins egl-utils
 dnfins wayland-utils
 #-/
 #/
+
+# Webdev browsers
+dnfins firefox
+dnfins chromium
+dnfins links
+dnfins torbrowser-launcher
+flatpakins org.gnome.Epiphany
+#-/
+#/
