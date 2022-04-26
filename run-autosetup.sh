@@ -611,6 +611,7 @@ dnfins xdotool
 dnfins vlc
 dnfins alsamixer
 dnfins wmctrl
+dnfins peek
 #-/
 #/
 
