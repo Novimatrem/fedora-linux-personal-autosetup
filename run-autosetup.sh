@@ -587,3 +587,30 @@ dnfins torbrowser-launcher
 flatpakins org.gnome.Epiphany
 #-/
 #/
+
+# More software
+flatpakins net.minetest.Minetest
+dnfins steam
+dnfins dino-im
+dnfins dino
+dnfins firefox
+dnfins playonlinux
+dnfins filezilla
+dnfins gimp
+dnfins guvcview
+dnfins pavucontrol
+dnfins gnome-system-monitor
+dnfins xfce4-appfinder
+dnfins gedit
+dnfins obs-studio
+dnfins cheese
+dnfins dropbox
+snapins spelunky
+dnfins xbindkeys
+dnfins xdotool
+dnfins vlc
+dnfins alsamixer
+dnfins wmctrl
+#-/
+#/
+
