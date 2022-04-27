@@ -615,3 +615,6 @@ dnfins peek
 #-/
 #/
 
+# xinput (important)
+dnfins xinput
+#/
