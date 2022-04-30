@@ -293,6 +293,12 @@ sudo chown $USER /opt/*
 #-/
 #/
 
+# Get ready to use snaps
+dnfins snapd
+sudo ln -s /var/lib/snapd/snap /snap
+#-/
+#/
+
 # Install some snaps I use or depend upon.
 snapins snapd
 snapins hello-world
