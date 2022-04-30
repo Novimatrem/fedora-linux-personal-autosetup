@@ -618,6 +618,7 @@ dnfins vlc
 dnfins alsamixer
 dnfins wmctrl
 dnfins peek
+flatpakins info.mumble.Mumble
 #-/
 #/
 
