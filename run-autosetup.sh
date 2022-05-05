@@ -636,3 +636,15 @@ cd /opt/
 git clone https://gitlab.com/Novimatrem/haiku-themes-linux
 #-/
 #/
+
+# install plasma discover fully
+sudo dnf install -y plasma-discover
+sudo dnf install -y plasma-discover*
+sudo dnf install -y plasma-discover-flatpak
+sudo dnf install -y plasma-discover-offline-updates
+sudo dnf install -y plasma-discover-packagekit
+sudo dnf install -y plasma-discover-notifier
+sudo dnf install -y plasma-discover-snap
+#-/
+#/
+
