@@ -648,3 +648,8 @@ sudo dnf install -y plasma-discover-snap
 #-/
 #/
 
+# python for sure
+dnfins python
+dnfins python3
+#-/
+#/
