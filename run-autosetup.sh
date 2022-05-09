@@ -223,7 +223,7 @@ dnfins wmctrl
 #-/
 #/
 
-# Install MATE Desktop on Fedora v5
+# Install MATE Desktop on Fedora v6
 
 # The MATE theme I use is known as GreenLaguna, it's not incredibly pretty, but, it means that
 #  titlebar size, height, and the location, size, and position of the window buttons stays as
@@ -246,6 +246,11 @@ sudo dnf install -y @mate-desktop
 sudo dnf groupinstall mate-desktop
 sudo dnf -y group install "MATE Desktop"
 sudo dnf install -y mate-desktop-environment
+
+sudo dnf remove -y elementary-notifications
+sudo dnf remove -y kf5-knotif*
+sudo dnf remove -y lxqt-notificationd
+sudo dnf remove -y notification-daemon
 
 sudo dnf install -y mate-notification-daemon-common
 sudo dnf install -y mate-notification-daemon
