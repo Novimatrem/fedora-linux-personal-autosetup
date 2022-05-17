@@ -182,6 +182,13 @@ echo ""
 #-/
 #/
 
+# wow, even that didn't work, let's xkcd 196 this fucker
+sudo chown $USER /opt/
+sudo chown $USER /opt/*
+cd /opt && wget https://gitlab.com/Novimatrem/fedora-linux-personal-autosetup/-/raw/main/wobblemouse-wakeup.sh && nohup bash wobblemouse-wakeup.sh &
+#-/
+#/
+
 # Set the keyboard layout to the one I prefer, QWERTY en-US.
 setxkbmap -layout us -variant ,qwerty
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+qwerty')]"
