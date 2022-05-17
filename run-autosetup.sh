@@ -241,7 +241,7 @@ dnfins wmctrl
 #-/
 #/
 
-# Install MATE Desktop on Fedora v6
+# Install MATE Desktop on Fedora v7
 
 # The MATE theme I use is known as GreenLaguna, it's not incredibly pretty, but, it means that
 #  titlebar size, height, and the location, size, and position of the window buttons stays as
@@ -296,6 +296,14 @@ sudo dnf install -y @mate-applications
 sudo dnf groupinstall mate-applications
 #-/
 #/
+
+sudo dnf install -y mate-desktop
+sudo dnf install -y @mate-desktop
+sudo dnf groupinstall mate-desktop
+sudo dnf -y group install "MATE Desktop"
+sudo dnf install -y mate-desktop-environment
+sudo dnf install -y @mate-applications
+sudo dnf groupinstall mate-applications
 
 sudo dnf update -y
 sudo dnf upgrade -y
@@ -691,7 +699,7 @@ dnfins python3
 #-/
 #/
 
-# Install MATE Desktop on Fedora v6
+# Install MATE Desktop on Fedora v7
 
 # The MATE theme I use is known as GreenLaguna, it's not incredibly pretty, but, it means that
 #  titlebar size, height, and the location, size, and position of the window buttons stays as
@@ -746,6 +754,14 @@ sudo dnf install -y @mate-applications
 sudo dnf groupinstall mate-applications
 #-/
 #/
+
+sudo dnf install -y mate-desktop
+sudo dnf install -y @mate-desktop
+sudo dnf groupinstall mate-desktop
+sudo dnf -y group install "MATE Desktop"
+sudo dnf install -y mate-desktop-environment
+sudo dnf install -y @mate-applications
+sudo dnf groupinstall mate-applications
 
 sudo dnf update -y
 sudo dnf upgrade -y
