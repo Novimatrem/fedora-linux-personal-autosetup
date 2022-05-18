@@ -787,6 +787,7 @@ flatpak install flathub org.audacityteam.Audacity
 flatpakins com.wire.WireDesktop
 snapins kdenlive
 dnfins minigalaxy
+dnfins skanlite
 #-/
 #/
 
