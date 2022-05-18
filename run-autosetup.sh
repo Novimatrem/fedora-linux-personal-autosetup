@@ -791,6 +791,7 @@ dnfins skanlite
 flatpakins com.skype.Client
 dnfins steam
 sudo snap install runelite --edge
+sudo dnf install -y xfce4-appfinder
 #-/
 #/
 
