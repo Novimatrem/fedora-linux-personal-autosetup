@@ -774,3 +774,10 @@ echo ""
 #-/
 #/
 
+# Extra apps that are important
+flatpakins org.videolan.VLC
+flatpakins com.obsproject.Studio
+flatpakins fr.handbrake.ghb
+flatpakins org.kde.kdenlive
+#-/
+#/
