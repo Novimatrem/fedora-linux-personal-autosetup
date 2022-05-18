@@ -785,6 +785,7 @@ flatpakins fr.handbrake.ghb
 flatpakins org.kde.kdenlive
 flatpak install flathub org.audacityteam.Audacity
 flatpakins com.wire.WireDesktop
+snapins kdenlive
 #-/
 #/
 
