@@ -788,6 +788,7 @@ flatpakins com.wire.WireDesktop
 snapins kdenlive
 dnfins minigalaxy
 dnfins skanlite
+flatpakins com.skype.Client
 #-/
 #/
 
