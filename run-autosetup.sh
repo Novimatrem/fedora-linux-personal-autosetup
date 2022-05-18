@@ -789,6 +789,7 @@ snapins kdenlive
 dnfins minigalaxy
 dnfins skanlite
 flatpakins com.skype.Client
+dnfins steam
 #-/
 #/
 
