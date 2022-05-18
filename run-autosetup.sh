@@ -558,7 +558,6 @@ sudo rm -rf /opt/nohup.out
 # Install more software
 dnfins abiword
 dnfins atril
-dnfins audacity
 dnfins baobab
 dnfins ncdu
 dnfins brasero
