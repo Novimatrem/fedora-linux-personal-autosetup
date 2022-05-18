@@ -786,3 +786,10 @@ flatpakins org.kde.kdenlive
 flatpak install flathub org.audacityteam.Audacity
 #-/
 #/
+
+# only 1 workspace, please.
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
+gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 1
+gsettings set org.mate.Marco.general num-workspaces 1
+#-/
+#/
