@@ -197,6 +197,7 @@ brcappend "setxkbmap -layout us -variant ,qwerty"
 #/
 
 # Make flatpaks good and working
+dnfins flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 #/
 
