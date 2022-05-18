@@ -779,5 +779,6 @@ flatpakins org.videolan.VLC
 flatpakins com.obsproject.Studio
 flatpakins fr.handbrake.ghb
 flatpakins org.kde.kdenlive
+flatpak install flathub org.audacityteam.Audacity
 #-/
 #/
