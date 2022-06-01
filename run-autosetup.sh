@@ -801,3 +801,35 @@ gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 1
 gsettings set org.mate.Marco.general num-workspaces 1
 #-/
 #/
+
+# Minecraft Java generic autoinstall
+sudo echo "Starting Minecraft install..."
+
+sudo mkdir /opt/
+
+sudo chown $USER /opt
+sudo chown $USER /opt/
+sudo chown $USER /opt/*
+
+sudo mkdir /opt/novi-minecraft
+
+sudo chown $USER /opt/novi-minecraft
+
+cd /opt/novi-minecraft
+
+sudo wget https://launcher.mojang.com/download/Minecraft.tar.gz
+
+sudo chown $USER /opt/novi-minecraft/Minecraft.tar.gz
+
+tar -xzvf Minecraft.tar.gz
+
+sleep 2s
+
+sudo rm -rf /opt/novi-minecraft/Minecraft.tar.gz
+
+ln -s /opt/novi-minecraft/minecraft-launcher/minecraft-launcher /home/$(whoami)/Desktop/Minecraft
+
+echo "Minecraft done, shortcut is on your desktop."
+#-/
+#/
+
