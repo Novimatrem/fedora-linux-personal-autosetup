@@ -854,3 +854,10 @@ sudo dnf install -y gnome-tweaks
 sudo dnf install -y gnome-weather
 #/
 
+# More good gnome apps, final
+dnfins gnome-characters
+dnfins gnome-system-monitor
+dnfins gnome-backgrounds
+#-/
+#/
+
