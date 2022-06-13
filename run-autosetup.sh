@@ -849,3 +849,8 @@ sudo dnf install -y gnome-tweaks
 sudo dnf install -y gnome-tweaks
 #-/
 #/
+
+# Weather
+sudo dnf install -y gnome-weather
+#/
+
