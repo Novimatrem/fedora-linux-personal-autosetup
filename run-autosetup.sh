@@ -839,3 +839,6 @@ echo "Minecraft done, shortcut is on your desktop."
 #-/
 #/
 
+# Calendar
+sudo dnf install -y gnome-calendar
+#/
