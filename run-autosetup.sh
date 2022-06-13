@@ -841,4 +841,11 @@ echo "Minecraft done, shortcut is on your desktop."
 
 # Calendar
 sudo dnf install -y gnome-calendar
+sudo dnf install -y gnome-tweaks
+#-/
+#/
+
+# Allow setting GNOME-ish app themes to something better and darker
+sudo dnf install -y gnome-tweaks
+#-/
 #/
