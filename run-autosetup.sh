@@ -861,3 +861,8 @@ dnfins gnome-backgrounds
 #-/
 #/
 
+# Nestopia
+# for some reason has an uppercase first letter for its package name in fedora
+sudo dnf install -y Nestopia
+#-/
+#/
