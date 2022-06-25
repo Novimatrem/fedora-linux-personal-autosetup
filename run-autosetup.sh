@@ -867,3 +867,8 @@ dnfins gnome-backgrounds
 sudo dnf install -y Nestopia
 #-/
 #/
+
+# OpenMW
+flatpak install --from https://flathub.org/repo/appstream/org.openmw.OpenMW.flatpakref -y --noninteractive
+#-/
+#/
