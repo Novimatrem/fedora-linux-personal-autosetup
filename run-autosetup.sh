@@ -872,3 +872,12 @@ sudo dnf install -y Nestopia
 flatpak install --from https://flathub.org/repo/appstream/org.openmw.OpenMW.flatpakref -y --noninteractive
 #-/
 #/
+
+# Good cli apps for fixing bads
+dnfins ncdu
+dnfins htop
+dnfins iotop
+dnfins nvidia-smi
+dnfins nethogs
+#-/
+#/
