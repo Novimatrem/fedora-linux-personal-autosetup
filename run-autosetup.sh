@@ -796,6 +796,7 @@ snapins kdenlive
 dnfins minigalaxy
 dnfins skanlite
 flatpakins com.skype.Client
+flatpakins io.mrarm.mcpelauncher
 dnfins steam
 sudo snap install runelite --edge
 sudo dnf install -y xfce4-appfinder
