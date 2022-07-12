@@ -883,7 +883,7 @@ dnfins nethogs
 #-/
 #/
 
-# Emus
-flatpak install flathub com.github.shonumi.gbe-plus -y --noninteractive
+# Sadly not great anymore, something broke in gbe plus??
+flatpak remove flathub com.github.shonumi.gbe-plus -y --noninteractive
 #-/
 #/
