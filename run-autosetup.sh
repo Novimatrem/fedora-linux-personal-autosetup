@@ -887,3 +887,8 @@ dnfins nethogs
 flatpak remove flathub com.github.shonumi.gbe-plus -y --noninteractive
 #-/
 #/
+
+# Gameboii emu
+flatpakins io.mgba.mGBA
+#-/
+#/
