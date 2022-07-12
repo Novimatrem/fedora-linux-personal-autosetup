@@ -882,3 +882,8 @@ dnfins nvidia-smi
 dnfins nethogs
 #-/
 #/
+
+# Emus
+flatpak install flathub com.github.shonumi.gbe-plus -y --noninteractive
+#-/
+#/
