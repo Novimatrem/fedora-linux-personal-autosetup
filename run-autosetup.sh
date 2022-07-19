@@ -892,3 +892,8 @@ flatpak remove flathub com.github.shonumi.gbe-plus -y --noninteractive
 flatpakins io.mgba.mGBA
 #-/
 #/
+
+# Weather 2
+flatpakins org.kde.kweather
+#-/
+#/
