@@ -902,3 +902,10 @@ flatpakins org.kde.kweather
 sudo dnf install -y gnome-software
 #-/
 #/
+
+# technic launcher
+cd /opt
+wget https://launcher.technicpack.net/launcher4/757/TechnicLauncher.jar
+#-/
+#/
+
