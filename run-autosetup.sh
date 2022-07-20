@@ -909,3 +909,9 @@ wget https://launcher.technicpack.net/launcher4/757/TechnicLauncher.jar
 #-/
 #/
 
+# haguichi hamachi logmein
+sudo dnf copr enable ztefn/haguichi
+sudo dnf install haguichi
+#-/
+#/
+
