@@ -897,3 +897,8 @@ flatpakins io.mgba.mGBA
 flatpakins org.kde.kweather
 #-/
 #/
+
+# gnome software store and updater
+sudo dnf install -y gnome-software
+#-/
+#/
