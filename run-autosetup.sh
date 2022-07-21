@@ -921,3 +921,8 @@ wget https://www.vpn.net/installers/logmein-hamachi-2.1.0.203-1.x86_64.rpm
 sudo rpm -ivh logmein-hamachi-2.1.0.203-1.x86_64.rpm
 #-/
 #/
+
+# xgamma
+dnfins xgamma
+#-/
+#/
