@@ -926,3 +926,8 @@ sudo rpm -ivh logmein-hamachi-2.1.0.203-1.x86_64.rpm
 dnfins xgamma
 #-/
 #/
+
+# snes9x flatpak
+flatpakins com.snes9x.Snes9x
+#-/
+#/
