@@ -931,3 +931,8 @@ dnfins xgamma
 flatpakins com.snes9x.Snes9x
 #-/
 #/
+
+# m64p n64 emulator flatpak
+flatpakins io.github.m64p.m64p
+#-/
+#/
