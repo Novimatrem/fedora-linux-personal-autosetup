@@ -936,3 +936,12 @@ flatpakins com.snes9x.Snes9x
 flatpakins io.github.m64p.m64p
 #-/
 #/
+
+# improved unicode font and symbol support
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+sudo dnf makecache -y
+sudo dnf install -y gdouros-aegean-fonts.noarch
+sudo dnf install -y gdouros-aegyptus-fonts.noarch
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+#-/
+#/
