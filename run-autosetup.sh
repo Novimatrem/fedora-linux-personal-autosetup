@@ -953,3 +953,6 @@ sudo snap connect discord:system-observe
 #-/
 #/
 
+# fuse
+flatpakins net.sf.fuse_emulator
+#/
