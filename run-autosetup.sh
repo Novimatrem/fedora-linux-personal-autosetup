@@ -945,3 +945,11 @@ sudo dnf install -y gdouros-aegyptus-fonts.noarch
 sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
 #-/
 #/
+
+# regret
+sudo snap install discord
+sleep 5s
+sudo snap connect discord:system-observe
+#-/
+#/
+
