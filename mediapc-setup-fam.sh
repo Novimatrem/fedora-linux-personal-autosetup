@@ -725,6 +725,8 @@ brcappend "alias yolo='sudo dnf autoremove -y && sudo dnf check -y && sudo dnf u
 dnfins mate-menu
 #/
 
+lvnote "Ensure you go and setup the Power Management settings in the Control Center, to set it to Never do anything automatically, and Never do anything with the lid switch."
+
 echo "DONE! REBOOT NOW!"
 
 
