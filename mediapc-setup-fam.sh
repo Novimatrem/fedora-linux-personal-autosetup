@@ -536,6 +536,7 @@ lvnote "Ensure you apply a theme that's not one of those awful horrible -modern 
 
 lvnote "ensure you follow your snippet to disable selinux and thus make selinux shut up forever: https://gitlab.com/-/snippets/2371794"
 
+lvnote "Ensure you do all you can to make the system automatically log in."
 
 # python for sure
 dnfins python
