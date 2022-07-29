@@ -960,3 +960,7 @@ flatpakins net.sf.fuse_emulator
 # good mate start menu
 dnfins mate-menu
 #/
+
+# burn baby burn
+dnfins brasero
+#/
