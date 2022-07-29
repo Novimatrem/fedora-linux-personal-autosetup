@@ -720,6 +720,10 @@ brcappend "alias yolo='sudo dnf autoremove -y && sudo dnf check -y && sudo dnf u
 #-/
 #/
 
+# good mate start menu
+dnfins mate-menu
+#/
+
 echo "DONE! REBOOT NOW!"
 
 
