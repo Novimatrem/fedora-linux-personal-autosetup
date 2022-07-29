@@ -727,6 +727,8 @@ dnfins mate-menu
 
 lvnote "Ensure you go and setup the Power Management settings in the Control Center, to set it to Never do anything automatically, and Never do anything with the lid switch."
 
+lvnote "also make sure you go into mate-screensaver's settings in a similar place and disable that fully, also."
+
 echo "DONE! REBOOT NOW!"
 
 
