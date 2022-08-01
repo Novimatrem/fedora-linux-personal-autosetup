@@ -964,3 +964,7 @@ dnfins mate-menu
 # burn baby burn
 dnfins brasero
 #/
+
+# EasyEffects (formally PulseEffects)
+flatpakins com.github.wwmm.easyeffects
+#/
