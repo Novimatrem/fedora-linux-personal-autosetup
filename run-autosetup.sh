@@ -968,3 +968,7 @@ dnfins brasero
 # EasyEffects (formally PulseEffects)
 flatpakins com.github.wwmm.easyeffects
 #/
+
+# mari0
+sudo snap install mari0 --edge
+#/
