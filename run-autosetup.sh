@@ -976,3 +976,11 @@ sudo snap install mari0 --edge
 # blue recorder flatpak install
 flatpakins sa.sy.bluerecorder
 #/
+
+# guarantee dnfdragora
+# this program is very good
+dnfins dnfdragora*
+dnfins dnfdragora
+dnfins dnfdragora-updater
+#-/
+#/
