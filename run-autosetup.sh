@@ -972,3 +972,7 @@ flatpakins com.github.wwmm.easyeffects
 # mari0
 sudo snap install mari0 --edge
 #/
+
+# blue recorder flatpak install
+flatpakins sa.sy.bluerecorder
+#/
