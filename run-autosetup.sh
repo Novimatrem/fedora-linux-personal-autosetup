@@ -988,3 +988,7 @@ dnfins dnfdragora-updater
 # required deps
 sudo dnf install -y neofetch toilet figlet lolcat
 #/
+
+# xterm
+dnfins xterm
+#/
