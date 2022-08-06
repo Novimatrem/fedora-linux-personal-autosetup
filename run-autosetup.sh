@@ -992,3 +992,7 @@ sudo dnf install -y neofetch toilet figlet lolcat
 # xterm
 dnfins xterm
 #/
+
+# gnome boxes
+flatpakins org.gnome.Boxes
+#/
