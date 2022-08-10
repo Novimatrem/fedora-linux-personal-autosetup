@@ -996,3 +996,7 @@ dnfins xterm
 # gnome boxes
 flatpakins org.gnome.Boxes
 #/
+
+# grapejuice
+flatpakins net.brinkervii.grapejuice
+#/
