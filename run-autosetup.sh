@@ -1000,3 +1000,7 @@ flatpakins org.gnome.Boxes
 # grapejuice
 flatpakins net.brinkervii.grapejuice
 #/
+
+# powertop
+dnfins powertop
+#/
