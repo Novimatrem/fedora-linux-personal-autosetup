@@ -1004,3 +1004,7 @@ flatpakins net.brinkervii.grapejuice
 # powertop
 dnfins powertop
 #/
+
+# atlauncher flatpak
+flatpakins com.atlauncher.ATLauncher
+#/
