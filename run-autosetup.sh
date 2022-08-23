@@ -1008,3 +1008,11 @@ dnfins powertop
 # atlauncher flatpak
 flatpakins com.atlauncher.ATLauncher
 #/
+
+# flatpak gajim and plugins
+flatpak install org.gajim.Gajim -y --noninteractive
+flatpak install org.gajim.Gajim.Plugin.appindicator -y --noninteractive
+flatpak install org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
+flatpak install org.gajim.Gajim.Plugin.omemo -y --noninteractive
+# ^ flatpak gajim and plugins /> 
+
