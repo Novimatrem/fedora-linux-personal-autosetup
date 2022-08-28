@@ -1019,3 +1019,7 @@ flatpak install org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # assaultcube
 flatpakins net.cubers.assault.AssaultCube
 #/
+
+# openarena
+flatpakins ws.openarena.OpenArena
+#/
