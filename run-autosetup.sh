@@ -1023,3 +1023,7 @@ flatpakins net.cubers.assault.AssaultCube
 # openarena
 flatpakins ws.openarena.OpenArena
 #/
+
+# osrs snap
+sudo snap install os-runes
+#/
