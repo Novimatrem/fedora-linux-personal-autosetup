@@ -1087,3 +1087,7 @@ echo ""
 sudo ddcutil -d 1 getvcp 14 | grep -v Unsupported
 
 echo ""
+
+# ElectronMail Flatpak
+flatpakins com.github.vladimiry.ElectronMail
+#/
