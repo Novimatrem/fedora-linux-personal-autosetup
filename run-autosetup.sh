@@ -1091,3 +1091,14 @@ echo ""
 # ElectronMail Flatpak
 flatpakins com.github.vladimiry.ElectronMail
 #/
+
+# Telegram Terminal CLI application
+mkdir -p ~/.local/src
+cd ~/.local/src
+git clone https://github.com/TruncatedDinosour/arigram.git
+cd arigram
+./do local
+alias brcappend='echo -e "\n$1\n" >> /home/$(whoami)/.bashrc'
+brcappend "alias arigram='cd /home/$(whoami)/.local/src/arigram/ && arigram'"
+#-/
+#/
