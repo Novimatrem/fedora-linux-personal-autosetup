@@ -1102,3 +1102,7 @@ alias brcappend='echo -e "\n$1\n" >> /home/$(whoami)/.bashrc'
 brcappend "alias arigram='cd /home/$(whoami)/.local/src/arigram/ && arigram'"
 #-/
 #/
+
+# srb2kart
+flatpakins org.srb2.SRB2Kart
+#/
