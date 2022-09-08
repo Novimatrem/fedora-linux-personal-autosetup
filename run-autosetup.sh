@@ -1134,3 +1134,20 @@ lvnote "To ensure your Win95/Chicago95 theme is working properly, follow this: h
 #-/
 #/
 
+# 2023 wallpaper!
+ins wget
+ins dconf
+
+cd /opt
+mkdir 2023wall
+cd /opt/2023wall
+
+wget https://novimatrem.uk/2023wall.png
+
+xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/2023wall/2023wall.png; done
+dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/2023wall/2023wall.png'"
+gsettings set org.gnome.desktop.background picture-uri file:///opt/2023wall/2023wall.png
+dconf write /org/mate/desktop/background/picture-filename "'/opt/2023wall/2023wall.png'"
+#-/
+#/
+
