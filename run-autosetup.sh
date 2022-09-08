@@ -1153,7 +1153,7 @@ dconf write /org/mate/desktop/background/picture-filename "'/opt/2023wall/2023wa
 #-/
 #/
 
-# NewsFlash flatpak
-flatpakins com.gitlab.newsflash
+# nevermind they ruined it
+flatpak remove -y com.gitlab.newsflash
 #/
 
