@@ -1106,3 +1106,31 @@ brcappend "alias arigram='cd /home/$(whoami)/.local/src/arigram/ && arigram'"
 # srb2kart
 flatpakins org.srb2.SRB2Kart
 #/
+
+# Basic Chicago setup
+mkdir /opt/chicago
+cd /opt/chicago
+git clone https://github.com/grassmunk/Chicago95
+cd /opt/chicago/Chicago95
+python3 /opt/chicago/Chicago95/installer.py
+
+cd /opt/chicago
+sudo cp -r Chicago95/Plymouth/Chicago95 /usr/share/plymouth/themes/
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/Chicago95/Chicago95.plymouth 100
+sudo update-alternatives --config default.plymouth
+sudo update-initramfs -u
+
+
+# windows 95 window buttons
+gsettings set org.gnome.desktop.wm.preferences button-layout ‘:maximize,minimize,close,close’
+gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <':menu,maximize,minimize,close'>}"
+gsettings set com.solus-project.budgie-wm button-layout ':appmenu,minimize,maximize,close'
+gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:maximize,minimize,close
+dconf write /org/cinnamon/desktop/wm/preferences/button-layout "':maximize,minimize,close'"
+xfconf-query -c xfwm4 -p /general/button_layout -s "O|MHC"
+# /windows 95 window buttons
+
+lvnote "To ensure your Win95/Chicago95 theme is working properly, follow this: https://github.com/grassmunk/Chicago95/blob/master/INSTALL.md"
+#-/
+#/
+
