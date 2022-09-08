@@ -1157,3 +1157,6 @@ dconf write /org/mate/desktop/background/picture-filename "'/opt/2023wall/2023wa
 flatpak remove -y com.gitlab.newsflash
 #/
 
+# Feeds RSS reader flatpak
+flatpakins flathub org.gabmus.gfeeds
+#/
