@@ -62,6 +62,8 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+qwerty')]"
 # They're dumb and for script tidy only
 alias dnfins="sudo dnf install -y $1"
 
+alias ins="sudo dnf install -y $1"
+
 alias snapins="sudo snap install $1"
 
 alias flatpakins="flatpak install flathub $1 -y --noninteractive"
