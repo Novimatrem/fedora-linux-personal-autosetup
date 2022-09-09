@@ -1160,3 +1160,13 @@ flatpak remove -y com.gitlab.newsflash
 # Feeds RSS reader flatpak
 flatpakins flathub org.gabmus.gfeeds
 #/
+
+# MATE's desktop icon implementation isn't great. Disabling it the best I can.
+dconf write /org/mate/caja/preferences/desktop-is-home-dir "false"
+dconf write /org/mate/caja/desktop/computer-icon-visible "false"
+dconf write /org/mate/desktop/background/show-desktop-icons "false"
+dconf write /org/mate/caja/desktop/home-icon-visible "false"
+dconf write /org/mate/caja/desktop/trash-icon-visible "false"
+#-/
+#/
+
