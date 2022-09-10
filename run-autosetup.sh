@@ -1170,3 +1170,7 @@ dconf write /org/mate/caja/desktop/trash-icon-visible "false"
 #-/
 #/
 
+# Wolf3D shareware snap
+sudo snap install wolf3d
+#/
+
