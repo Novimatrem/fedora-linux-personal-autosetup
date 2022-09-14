@@ -1174,3 +1174,7 @@ dconf write /org/mate/caja/desktop/trash-icon-visible "false"
 sudo snap install wolf3d
 #/
 
+# a qemu snap
+sudo snap install qemu-virgil --edge
+#/
+
