@@ -1178,3 +1178,6 @@ sudo snap install wolf3d
 sudo snap install qemu-virgil --edge
 #/
 
+# ensure mate-terminal
+dnfins mate-terminal
+#/
