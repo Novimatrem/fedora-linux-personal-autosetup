@@ -1181,3 +1181,10 @@ sudo snap install qemu-virgil --edge
 # ensure mate-terminal
 dnfins mate-terminal
 #/
+
+# video editor ensure
+sudo snap install kdenlive
+flatpakins org.kde.kdenlive
+flatpakins org.openshot.OpenShot
+#-/
+#/
