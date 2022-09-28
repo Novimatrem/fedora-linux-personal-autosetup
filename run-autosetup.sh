@@ -1188,3 +1188,11 @@ flatpakins org.kde.kdenlive
 flatpakins org.openshot.OpenShot
 #-/
 #/
+
+# audio editor ensure
+dnfins audacity
+flatpakins org.audacityteam.Audacity
+sudo snap install audacity
+#-/
+#/
+
