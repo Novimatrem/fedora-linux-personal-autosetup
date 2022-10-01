@@ -939,6 +939,11 @@ flatpakins io.github.m64p.m64p
 #-/
 #/
 
+# ensure n64
+flatpakins io.github.simple64.simple64
+#-/
+#/
+
 # improved unicode font and symbol support
 sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
 sudo dnf makecache -y
