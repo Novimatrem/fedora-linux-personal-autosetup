@@ -1203,4 +1203,5 @@ sudo snap install audacity
 
 # bucklespring
 sudo snap install bucklespring --edge
+lvnote "Ensure you setup a startup program for the command: bucklespring.buckle"
 #/
