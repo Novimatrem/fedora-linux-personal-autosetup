@@ -1201,3 +1201,6 @@ sudo snap install audacity
 #-/
 #/
 
+# bucklespring
+sudo snap install bucklespring --edge
+#/
