@@ -1209,5 +1209,6 @@ lvnote "Ensure you setup a startup program for the command: bucklespring.buckle"
 # qjoypad snap
 sudo snap install qjoypad-ahimta --candidate
 sudo snap connect qjoypad-ahimta:joystick :joystick
+sudo snap connect qjoypad-ahimta:joystick
 #-/
 #/
