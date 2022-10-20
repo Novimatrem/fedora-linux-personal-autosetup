@@ -1212,3 +1212,8 @@ sudo snap connect qjoypad-ahimta:joystick :joystick
 sudo snap connect qjoypad-ahimta:joystick
 #-/
 #/
+
+# retext
+flatpakins me.mitya57.ReText
+#/
+
