@@ -1217,3 +1217,6 @@ sudo snap connect qjoypad-ahimta:joystick
 flatpakins me.mitya57.ReText
 #/
 
+# melonds
+flatpakins net.kuribo64.melonDS
+#/
