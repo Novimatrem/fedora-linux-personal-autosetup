@@ -1220,3 +1220,7 @@ flatpakins me.mitya57.ReText
 # melonds
 flatpakins net.kuribo64.melonDS
 #/
+
+# powerstat snap
+sudo snap install powerstat
+#/
