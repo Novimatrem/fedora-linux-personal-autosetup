@@ -1224,3 +1224,7 @@ flatpakins net.kuribo64.melonDS
 # powerstat snap
 sudo snap install powerstat
 #/
+
+# scrot
+dnfins scrot
+#/
