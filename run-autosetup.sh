@@ -1228,3 +1228,23 @@ sudo snap install powerstat
 # scrot
 dnfins scrot
 #/
+
+# Install IceWM (Fedora)
+echo "Install IceWM (Fedora)"
+
+cd "$(dirname "$0")"
+
+sudo dnf install -y lzip
+sudo dnf install -y g++
+
+sudo dnf install -y icewm
+sudo dnf install -y icewm-clearlooks
+sudo dnf install -y icewm-data
+sudo dnf install -y icewm-minimal-session
+sudo dnf install -y icewm-themes
+
+wget https://ice-wm.org/scripts/os-depends.sh
+sudo bash -x ./os-depends.sh
+#-/
+#/
+
