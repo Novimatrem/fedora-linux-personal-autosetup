@@ -1248,3 +1248,21 @@ sudo bash -x ./os-depends.sh
 #-/
 #/
 
+# System upgrader
+sudo dnf autoremove -y
+sudo dnf check -y
+sudo dnf upgrade -y
+sudo dnf distro-sync -y
+sudo dnf autoremove -y
+sudo dnf check -y
+
+sudo dnf install -y dnf-plugin-system-upgrade
+
+sudo dnf autoremove -y
+sudo dnf check -y
+sudo dnf upgrade -y
+sudo dnf distro-sync -y
+sudo dnf autoremove -y
+sudo dnf check -y
+#/
+
