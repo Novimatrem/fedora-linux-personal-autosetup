@@ -1266,3 +1266,7 @@ sudo dnf autoremove -y
 sudo dnf check -y
 #/
 
+# Element (Matrix) [previously known as Riot] flatpak
+flatpakins im.riot.Riot
+#/
+
