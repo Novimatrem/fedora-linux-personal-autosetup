@@ -1270,3 +1270,8 @@ sudo dnf check -y
 flatpakins im.riot.Riot
 #/
 
+# Forcefully replace xterm with a symlink to another terminal 
+sudo rm -rf /usr/bin/xterm
+sudo ln -s /usr/bin/mate-terminal /usr/bin/xterm
+#-/
+#/
