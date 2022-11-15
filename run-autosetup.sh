@@ -1276,3 +1276,7 @@ sudo rm -rf /usr/bin/xterm
 sudo ln -s /usr/bin/mate-terminal /usr/bin/xterm
 #-/
 #/
+
+# LibreOffice
+dnfins libreoffice
+#/
