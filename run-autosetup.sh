@@ -1280,3 +1280,7 @@ sudo ln -s /usr/bin/mate-terminal /usr/bin/xterm
 # LibreOffice
 dnfins libreoffice
 #/
+
+# srb2
+flatpakins org.srb2.SRB2
+#/
