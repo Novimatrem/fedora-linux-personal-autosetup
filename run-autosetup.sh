@@ -1284,3 +1284,7 @@ dnfins libreoffice
 # srb2
 flatpakins org.srb2.SRB2
 #/
+
+# wondershaper dnf
+dnfins wondershaper
+#/
