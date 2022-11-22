@@ -1292,3 +1292,7 @@ dnfins wondershaper
 # gba emulator for less capable machines
 sudo snap install visualboyadvance-m --edge
 #/
+
+# micropolis snap
+sudo snap install micropolis
+#/
