@@ -1288,3 +1288,7 @@ flatpakins org.srb2.SRB2
 # wondershaper dnf
 dnfins wondershaper
 #/
+
+# gba emulator for less capable machines
+sudo snap install visualboyadvance-m --edge
+#/
