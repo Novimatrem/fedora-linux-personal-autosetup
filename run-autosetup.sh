@@ -575,6 +575,7 @@ dnfins ncdu
 dnfins brasero
 dnfins calibre
 dnfins dosbox
+dnfins dosbox-staging
 dnfins filezilla
 dnfins gimp
 dnfins git
