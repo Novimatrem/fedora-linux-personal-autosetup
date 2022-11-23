@@ -1297,3 +1297,10 @@ sudo snap install visualboyadvance-m --edge
 # micropolis snap
 sudo snap install micropolis
 #/
+
+# openttd
+dnfins openttd
+dnfins openttd-docs
+dnfins openttd-opengfx
+#-/
+#/
