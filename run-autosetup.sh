@@ -1308,3 +1308,8 @@ dnfins openttd-opengfx
 # ags
 sudo snap install ags --edge
 #/
+
+# midi better hopefully maybe
+sudo dnf install -y fluid*
+#/
+
