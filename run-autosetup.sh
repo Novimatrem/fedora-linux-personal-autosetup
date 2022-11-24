@@ -1313,3 +1313,6 @@ sudo snap install ags --edge
 sudo dnf install -y fluid*
 #/
 
+# scummvm for ags games (yahtzee's)
+sudo snap install scummvm
+#/
