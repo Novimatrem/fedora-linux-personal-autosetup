@@ -1304,3 +1304,7 @@ dnfins openttd-docs
 dnfins openttd-opengfx
 #-/
 #/
+
+# ags
+sudo snap install ags --edge
+#/
