@@ -1316,3 +1316,7 @@ sudo dnf install -y fluid*
 # scummvm for ags games (yahtzee's)
 sudo snap install scummvm
 #/
+
+# osu!lazer flatpak
+flatpakins sh.ppy.osu
+#/
