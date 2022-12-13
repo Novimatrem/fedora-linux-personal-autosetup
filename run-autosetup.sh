@@ -1402,3 +1402,8 @@ sudo dnf install -y gedit
 #-/
 #/
 
+# dropbox ensure
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpakins com.dropbox.Client
+#/
