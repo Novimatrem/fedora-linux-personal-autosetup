@@ -332,6 +332,8 @@ dnfins firefox
 dnfins chromium
 dnfins links
 dnfins torbrowser-launcher
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins org.gnome.Epiphany
 #-/
 #/
@@ -409,6 +411,8 @@ sudo snap refresh
 #/
 
 # Install some flatpaks I use or depend upon.
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins com.adobe.Flash-Player-Projector
 flatpakins com.zandronum.Zandronum
 flatpakins com.eduke32.EDuke32
@@ -603,6 +607,8 @@ dnfins peek
 dnfins handbrake
 dnfins kdenlive
 dnfins openshot
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins io.github.fabiangreffrath.Doom
 dnfins oxygen-fonts
 dnfins yaru-theme
@@ -648,11 +654,15 @@ dnfins firefox
 dnfins chromium
 dnfins links
 dnfins torbrowser-launcher
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins org.gnome.Epiphany
 #-/
 #/
 
 # More software
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins net.minetest.Minetest
 dnfins steam
 dnfins dino-im
@@ -676,6 +686,8 @@ dnfins vlc
 dnfins alsamixer
 dnfins wmctrl
 dnfins peek
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins info.mumble.Mumble
 dnfins iotop
 #-/
@@ -699,6 +711,8 @@ git clone https://gitlab.com/Novimatrem/haiku-themes-linux
 # install plasma discover fully
 sudo dnf install -y plasma-discover
 sudo dnf install -y plasma-discover*
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo dnf install -y plasma-discover-flatpak
 sudo dnf install -y plasma-discover-offline-updates
 sudo dnf install -y plasma-discover-packagekit
@@ -789,6 +803,8 @@ echo ""
 #/
 
 # Extra apps that are important
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins org.videolan.VLC
 flatpakins com.obsproject.Studio
 flatpakins fr.handbrake.ghb
@@ -873,6 +889,8 @@ sudo dnf install -y Nestopia
 #/
 
 # OpenMW
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install --from https://flathub.org/repo/appstream/org.openmw.OpenMW.flatpakref -y --noninteractive
 #-/
 #/
@@ -887,16 +905,22 @@ dnfins nethogs
 #/
 
 # Sadly not great anymore, something broke in gbe plus??
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak remove flathub com.github.shonumi.gbe-plus -y --noninteractive
 #-/
 #/
 
 # Gameboii emu
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins io.mgba.mGBA
 #-/
 #/
 
 # Weather 2
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins org.kde.kweather
 #-/
 #/
@@ -931,16 +955,22 @@ dnfins xgamma
 #/
 
 # snes9x flatpak
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins com.snes9x.Snes9x
 #-/
 #/
 
 # m64p n64 emulator flatpak
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins io.github.m64p.m64p
 #-/
 #/
 
 # ensure n64
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins io.github.simple64.simple64
 #-/
 #/
@@ -962,6 +992,8 @@ sudo snap connect discord:system-observe
 #/
 
 # fuse
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins net.sf.fuse_emulator
 #/
 
@@ -974,6 +1006,8 @@ dnfins brasero
 #/
 
 # EasyEffects (formally PulseEffects)
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins com.github.wwmm.easyeffects
 #/
 
@@ -982,6 +1016,8 @@ sudo snap install mari0 --edge
 #/
 
 # blue recorder flatpak install
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins sa.sy.bluerecorder
 #/
 
@@ -1002,10 +1038,14 @@ dnfins xterm
 #/
 
 # gnome boxes
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins org.gnome.Boxes
 #/
 
 # grapejuice
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins net.brinkervii.grapejuice
 #/
 
@@ -1014,10 +1054,14 @@ dnfins powertop
 #/
 
 # atlauncher flatpak
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins com.atlauncher.ATLauncher
 #/
 
 # flatpak gajim and plugins
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install org.gajim.Gajim -y --noninteractive
 flatpak install org.gajim.Gajim.Plugin.appindicator -y --noninteractive
 flatpak install org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
@@ -1025,10 +1069,14 @@ flatpak install org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # ^ flatpak gajim and plugins /> 
 
 # assaultcube
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins net.cubers.assault.AssaultCube
 #/
 
 # openarena
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins ws.openarena.OpenArena
 #/
 
@@ -1097,6 +1145,8 @@ sudo ddcutil -d 1 getvcp 14 | grep -v Unsupported
 echo ""
 
 # ElectronMail Flatpak
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins com.github.vladimiry.ElectronMail
 #/
 
@@ -1112,6 +1162,8 @@ brcappend "alias arigram='cd /home/$(whoami)/.local/src/arigram/ && arigram'"
 #/
 
 # srb2kart
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins org.srb2.SRB2Kart
 #/
 
@@ -1160,10 +1212,14 @@ dconf write /org/mate/desktop/background/picture-filename "'/opt/2023wall/2023wa
 #/
 
 # nevermind they ruined it
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak remove -y com.gitlab.newsflash
 #/
 
 # Feeds RSS reader flatpak
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins flathub org.gabmus.gfeeds
 #/
 
@@ -1189,6 +1245,8 @@ dnfins mate-terminal
 #/
 
 # video editor ensure
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo snap install kdenlive
 flatpakins org.kde.kdenlive
 flatpakins org.openshot.OpenShot
@@ -1196,6 +1254,8 @@ flatpakins org.openshot.OpenShot
 #/
 
 # audio editor ensure
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 dnfins audacity
 flatpakins org.audacityteam.Audacity
 sudo snap install audacity
@@ -1215,10 +1275,14 @@ sudo snap connect qjoypad-ahimta:joystick
 #/
 
 # retext
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins me.mitya57.ReText
 #/
 
 # melonds
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins net.kuribo64.melonDS
 #/
 
@@ -1268,6 +1332,8 @@ sudo dnf check -y
 #/
 
 # Element (Matrix) [previously known as Riot] flatpak
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins im.riot.Riot
 #/
 
@@ -1283,6 +1349,8 @@ dnfins libreoffice
 #/
 
 # srb2
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins org.srb2.SRB2
 #/
 
@@ -1318,5 +1386,7 @@ sudo snap install scummvm
 #/
 
 # osu!lazer flatpak
+dnfins flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins sh.ppy.osu
 #/
