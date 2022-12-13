@@ -1396,3 +1396,9 @@ dnfins flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 #/
 
+# ensure gedit
+dnfins gedit
+sudo dnf install -y gedit
+#-/
+#/
+
