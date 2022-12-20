@@ -1407,3 +1407,10 @@ dnfins flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpakins com.dropbox.Client
 #/
+
+# ensure transmission
+dnfins transmission
+dnfins transmission-gtk
+dnfins transmission-common
+#-/
+#/
