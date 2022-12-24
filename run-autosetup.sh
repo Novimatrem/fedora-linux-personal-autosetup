@@ -1414,3 +1414,10 @@ dnfins transmission-gtk
 dnfins transmission-common
 #-/
 #/
+
+# gnome clocks for reminders.
+sudo dnf install -y gnome-clocks
+dnfins gnome-clocks
+#-/
+#/
+
