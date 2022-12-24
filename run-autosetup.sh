@@ -1424,6 +1424,7 @@ dnfins gnome-clocks
 # deps
 sudo dnf install -y espeak
 dnfins espeak
+dnfins fortune-mod
 #-/
 #/
 
