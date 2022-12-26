@@ -1428,3 +1428,7 @@ dnfins fortune-mod
 #-/
 #/
 
+# ghex
+dnfins ghex
+#/
+
