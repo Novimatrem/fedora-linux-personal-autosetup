@@ -1462,3 +1462,12 @@ echo ""
 #-/
 #/
 
+# wallpaper engine working on linux yay!
+# subscribe to wallpaper engine walls through its steam workshop, 
+# get the files from where they download to in;
+# /home/<your_username>/.steam/steam/steamapps/workshop/content/431960
+# and then APPLY them in this app instead, known as Hidamari.
+flatpakins io.github.jeffshee.Hidamari
+flatpak install flathub io.github.jeffshee.Hidamari
+#-/
+#/
