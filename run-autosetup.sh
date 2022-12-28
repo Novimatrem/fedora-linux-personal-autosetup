@@ -1432,3 +1432,33 @@ dnfins fortune-mod
 dnfins ghex
 #/
 
+# Install KDE Desktop on Fedora
+echo "Working..."
+
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+
+
+sudo dnf update -y
+sudo dnf upgrade -y
+sudo dnf upgrade --refresh -y
+
+sudo dnf install -y sddm
+sudo systemctl enable sddm
+
+sudo dnf groupinstall "KDE Plasma Workspaces"
+sudo dnf group install kde-desktop-environment
+sudo dnf install @kde-desktop-environment
+sudo dnf install @kde-desktop
+
+sudo dnf update -y
+sudo dnf upgrade -y
+sudo dnf upgrade --refresh -y
+
+
+sudo dnf autoremove -y && sudo dnf check -y && sudo dnf upgrade -y && sudo dnf distro-sync -y && sudo dnf autoremove -y && sudo dnf check -y
+
+echo "Done."
+echo ""
+#-/
+#/
+
