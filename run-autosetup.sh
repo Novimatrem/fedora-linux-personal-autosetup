@@ -1471,3 +1471,9 @@ flatpakins io.github.jeffshee.Hidamari
 flatpak install flathub io.github.jeffshee.Hidamari
 #-/
 #/
+
+# quake 3
+sudo dnf install -y quake3
+sudo dnf install -y ioquake3
+#-/
+#/
